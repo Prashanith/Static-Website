@@ -1,13 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #EAE8DC;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/372/838/497/jon-snow-ghost-minimal-4k-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cinzel', serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection {
+  color:seashell ;
+  background-color:darkblue;
+}
+
+.homePage{
+  margin: 35px auto;
+  max-width: 80%;
+  width: 75%;
+}
+
+.buttonStyle{
+  border-radius: 3px;
+  border: 0px;
+  padding: 5px 8px;
+  background-color: #0E3746;
+  color: aliceblue;
+}
+.charTitle{
+  font-size: 35px;
+
+}
+
+.characterBlog{
+  border:1px solid #0E3746;
+  padding: 20px;
+  padding-top: 4px;
+  margin: 10px;
+  background-color:rgb(7, 5, 8,0.3);  
+  color:white;
+}
+
+.characterBlog p{
+  color:whitesmoke;  
+}
+
+/* form styles */
+form{
+  text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  box-sizing: border-box;
+  color:#0E3746 ;
+  background-color:aliceblue;
+  font-size: 17px;
+}
+
+label{
+  font-size: 20px;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  box-sizing: border-box;
+  color:#0E3746 ;
+  background-color: aliceblue;
+  font-size: 17px;
+}
+
+input[type=submit],button{
+  color: #EAE8DC;
+  background: linear-gradient(to top left,#38D7E7 0%, #42376A 100%);
+  border: 0px;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 17px;
+  padding: 12px 20px;
+  margin: 8px auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.model {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background: linear-gradient(to top left,#38D7E7 0%, #42376A 100%);
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+.content {
+    margin: 30px;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+.not-found{
+  text-align: center;
+}
+
+.imgStyle{
+  background-attachment: fixed;
+  
+  border: 1px solid snow;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-view{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }

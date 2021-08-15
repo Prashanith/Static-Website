@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Yusei+Magic&display=swap');
+
+
+.aStyle{
+    text-decoration: none;
+    color:#42376A;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 25px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+.aStyle:hover{
+    text-decoration: underline;
+    color:grey;
+    font-size: 30px;
+}
+
+li{
+    display: inline;
+}
+nav{
+    /* font-family: 'Yusei Magic', sans-serif;     */
+    margin-top:-20px;
+    padding: 4px;
+    font-size: 15px;
+    border-bottom: 2px solid #E9E9E9;
+    background: linear-gradient(to top left,#38D7E7 0%, #42376A 100%);
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: #EAE8DC;
+    font-size: 20px;
+}
